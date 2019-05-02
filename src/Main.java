@@ -36,7 +36,7 @@ public class Main extends Application {
         grid.setPadding(new Insets(25));
         grid.setHgap(10);
         grid.setVgap(10);
-        BackgroundImage myBI= new BackgroundImage(new Image("\\Resources\\foxHead.png",1600,900,true,true),BackgroundRepeat.REPEAT, BackgroundRepeat.REPEAT, BackgroundPosition.DEFAULT,new BackgroundSize(1600.0,900.0,false,false,false,false));
+        BackgroundImage myBI= new BackgroundImage(new Image("\\Resources\\foxHead.png",3200,1800,true,true),BackgroundRepeat.REPEAT, BackgroundRepeat.REPEAT, BackgroundPosition.DEFAULT,new BackgroundSize(1600.0,900.0,false,false,false,false));
         grid.setBackground(new Background(myBI));
         //Media sound = new Media(new File(System.getProperty("user.dir") + "\\Resources\\Dancin.mp3").toURI().toString());
         //MediaPlayer mediaPlayer = new MediaPlayer(sound);
